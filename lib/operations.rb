@@ -1,7 +1,6 @@
 def unsafe?(speed)
 #below 40 or over 60 is true; 30 and 95 is unsafe. 50 is safe so return FALSE
 
-the_speed = current.speed
 puts "30 and 95 are unsafe"
 if the_speed == 50
 
