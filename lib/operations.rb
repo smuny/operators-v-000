@@ -1,7 +1,7 @@
 def unsafe?(speed)
 #below 40 or over 60 is true; 30 and 95 is unsafe. 50 is safe so return FALSE
-
-if speed == 50
+the_speed = 
+if the_speed == 50
 
 speed < 40 || speed > 60 ? true : false
 
